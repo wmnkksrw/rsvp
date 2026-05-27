@@ -17,7 +17,6 @@ export async function POST(request: Request) {
       data: {
         name: validated.name,
         attending: validated.attending,
-        eventId: validated.eventId,
       },
     });
 
